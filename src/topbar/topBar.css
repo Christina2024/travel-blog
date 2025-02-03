@@ -48,10 +48,11 @@ body {
 
 .topListItem {
   padding-top: 10%;
-  margin-right: 20px;
-  font-size: 18px;
+  margin-right: 60px;
+  font-size: 30px;
   font-weight: 300;
   cursor: pointer;
+  color: antiquewhite;
 }
 
 .topSearchIcon {
@@ -59,4 +60,9 @@ body {
   color: rgb(255, 255, 255);
   cursor: pointer;
   margin-left: 15px;
+}
+
+.topListItem:hover {
+  color: black;
+  cursor: pointer;
 }
