@@ -16,7 +16,7 @@ export default function Header() {
         src="https://media.istockphoto.com/id/1156838940/photo/african-american-teen-girl-with-her-feet-in-the-sand.jpg?s=612x612&w=0&k=20&c=OReyHPuqNJ5IV8wlh2Y-gx0puOdxu7oLQkOeWRx-TKM="
         alt="feet resting on top of sand"
       ></img>
-      <img src="./public/swimming_pool.jpg" alt=""></img>
+      <img src="swimming_pool.jpg" alt="woman_in_pool" />
     </div>
   );
 }
