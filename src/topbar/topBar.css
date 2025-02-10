@@ -1,5 +1,5 @@
 body {
-  background-color: #fa7c21;
+  background-color: #ffffff;
 }
 
 h1 {
@@ -7,9 +7,12 @@ h1 {
   justify-content: flex-start;
   margin-top: 4%;
   position: sticky;
-  font-size: 5em;
+  font-size: 6em;
   text-align: center;
+  padding-left: 25%;
 }
+
+.topLeft,
 .thumbnailRight {
   flex: 3;
   display: flex;
@@ -34,20 +37,16 @@ h1 {
   font-family: "Josefin Sans", serif;
 }
 
-/*.topLeft,*/
-
 .topCenter {
   flex: 6;
-  justify-items: right;
 }
-/*
+
 .socialMedia {
   font-size: 20px;
   margin-right: 10px;
   color: #000000;
-  align-items: flex-end;
-}*/
-
+  cursor: pointer;
+}
 
 .topList {
   display: flex;
@@ -62,8 +61,10 @@ h1 {
   margin-right: 60px;
   font-size: 30px;
   font-weight: 300;
+  justify-content: space-around;
   cursor: pointer;
   color: antiquewhite;
+  align-items: center;
 }
 
 .topSearchIcon {
@@ -76,4 +77,9 @@ h1 {
 .topListItem:hover {
   color: black;
   cursor: pointer;
+}
+
+.topCenter,
+.top {
+  background-color: #fa7c21;
 }

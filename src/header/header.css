@@ -1,17 +1,17 @@
+.aboutText {
+  display: flex;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  font-size: 2em;
+  width: 900px;
+}
 
 .headerImages {
-  padding-top: 20%;
+  padding-top: 10%;
   display: flex; /* Align images in a row */
-  gap: 20px; /* Adjust spacing between images */
+  gap: 40px; /* Adjust spacing between images */
   justify-content: center;
   max-height: 500px;
   max-width: 200;
-}
-
-.aboutText {
-    display: flex;
-    text-align: left;
-    padding-left: 10%;
-    padding-top: 10%;
-    font-size: 2em;
 }

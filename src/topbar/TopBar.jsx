@@ -4,14 +4,20 @@ export default function TopBar() {
   return (
     <>
       <div className="top">
+        <div className="topLeft">
+          <i class="socialMedia fa-brands fa-square-instagram"></i>
+          <i class="socialMedia fa-brands fa-youtube"></i>
+          <i class="socialMedia fa-brands fa-square-facebook"></i>
+        </div>
+
         <div className="topCenter">
-          <h1>Travelling in Colour</h1>
+          <h1>Travelling <em>in</em> Colour</h1>
           <ul className="topList">
             <li className="topListItem">Home</li>
             <li className="topListItem">Destinations</li>
             <li className="topListItem">Blog</li>
             <li className="topListItem">Solo-travel 101</li>
-            <li className="topListItem">Join the tribe</li>
+            <li className="topListItem">Community</li>
           </ul>
         </div>
         <div className="thumbnailRight">
